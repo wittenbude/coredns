@@ -3,7 +3,7 @@ LOCKFILE = lockfile.env
 .PHONY: build
 .SILENT: build
 build:
-	cat lockfile.env | while read line; do echo --build-arg "$$line"; done | xargs docker build .
+	cat lockfile.env | while read line; do echo --build-arg "$$line"; done | xargs docker build -t local/coredns .
 
 .PHONY: update
 .SILENT: update
