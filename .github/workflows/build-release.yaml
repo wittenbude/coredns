@@ -26,15 +26,9 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - name: Load build arguments
-        id: lockfile
-        uses: juliangruber/read-file-action@v1
-        with:
-          path: ./lockfile.env
       - name: Build Image
         uses: docker/build-push-action@v3
         with:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          build-args: ${{ steps.lockfile.outputs.content }}

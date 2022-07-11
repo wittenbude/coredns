@@ -1,26 +1,21 @@
 FROM golang:alpine AS builder
-ARG COREDNS_VERSION
-ARG GATEWAY_VERSION
 
-RUN apk update && apk add git ca-certificates && update-ca-certificates
+ENV CGO_ENABLED=0
+WORKDIR /work
 
-RUN git clone https://github.com/coredns/coredns --depth=1 --branch="$COREDNS_VERSION"
-WORKDIR /go/coredns
+RUN apk update && apk add ca-certificates && update-ca-certificates
 
-RUN go get \
-    "github.com/infobloxopen/kubenodes" \
-    "github.com/ori-edge/k8s_gateway@$GATEWAY_VERSION"
+COPY go.mod go.sum ./
+RUN go mod download -x
 
-COPY plugin.cfg .
-
-RUN go generate
-RUN CGO_ENABLED=0 go build -v -o /coredns
+COPY cmd ./cmd
+RUN go build -v ./cmd/coredns
 
 
 FROM scratch
 
 COPY --from=builder /etc/ssl/certs /etc/ssl/certs
-COPY --from=builder /coredns /coredns
+COPY --from=builder /work/coredns /coredns
 
 EXPOSE 53 53/udp
 ENTRYPOINT ["/coredns"]
