@@ -3,7 +3,7 @@ module github.com/wittenbude/coredns
 go 1.18
 
 require (
-	github.com/coredns/coredns v1.9.4
+	github.com/coredns/coredns v1.10.0
 	github.com/infobloxopen/kubenodes v0.0.0-20220421182356-f6d6d8476101
 	github.com/ori-edge/k8s_gateway v0.3.2
 )
@@ -27,8 +27,9 @@ require (
 	github.com/Microsoft/go-winio v0.5.1 // indirect
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
+	github.com/antonmedv/expr v1.9.0 // indirect
 	github.com/apparentlymart/go-cidr v1.1.0 // indirect
-	github.com/aws/aws-sdk-go v1.44.91 // indirect
+	github.com/aws/aws-sdk-go v1.44.95 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/coredns/caddy v1.1.1 // indirect
@@ -103,7 +104,7 @@ require (
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
 	golang.org/x/tools v0.1.12 // indirect
 	golang.org/x/xerrors v0.0.0-20220609144429-65e65417b02f // indirect
-	google.golang.org/api v0.94.0 // indirect
+	google.golang.org/api v0.95.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20220624142145-8cd45d7dbd1f // indirect
 	google.golang.org/grpc v1.49.0 // indirect
@@ -115,7 +116,7 @@ require (
 	k8s.io/api v0.25.0 // indirect
 	k8s.io/apimachinery v0.25.0 // indirect
 	k8s.io/client-go v0.25.0 // indirect
-	k8s.io/klog/v2 v2.80.0 // indirect
+	k8s.io/klog/v2 v2.80.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20220803162953-67bda5d908f1 // indirect
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed // indirect
 	sigs.k8s.io/gateway-api v0.4.3 // indirect
