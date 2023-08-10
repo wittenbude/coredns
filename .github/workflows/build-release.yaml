@@ -54,6 +54,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
+          provenance: false
           platforms: ${{ matrix.platform.os}}/${{ matrix.platform.arch }}
           labels: ${{ steps.meta.outputs.labels }}
           outputs: type=image,name=${{ env.IMAGE_NAME }},push-by-digest=true,name-canonical=true,push=true
