@@ -24,7 +24,7 @@ jobs:
       - name: Download Dependencies
         run: go mod download
       - name: Build coredns
-        run: go build -v -o build .
+        run: go build -v -o build/ .
         env:
           GOOS: ${{ matrix.platform.os }}
           GOARCH: ${{ matrix.platform.arch }}
