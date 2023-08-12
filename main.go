@@ -12,7 +12,7 @@ import (
 	_ "github.com/ori-edge/k8s_gateway"
 )
 
-var insertAfter string = "kubernetes"
+var insertAfter = "kubernetes"
 
 func init() {
 	var directives []string
