@@ -14,11 +14,11 @@ jobs:
     permissions:
       contents: read
       pull-requests: read
-    uses: codello/.github/.github/workflows/go-lint.yml@v0
+    uses: codello/.github/.github/workflows/go-lint.yml@v1
 
   build:
     name: Build
-    uses: codello/.github/.github/workflows/go-build.yml@v0
+    uses: codello/.github/.github/workflows/go-build.yml@v1
     with:
       platforms: linux/amd64,linux/arm64,linux/arm,linux/386
 
@@ -29,6 +29,4 @@ jobs:
     permissions:
       contents: read
       packages: write
-    uses: codello/.github/.github/workflows/docker-publish.yml@v0
-    with:
-      platforms: linux/amd64,linux/arm64,linux/arm,linux/386
+    uses: codello/.github/.github/workflows/docker-publish.yml@v1
