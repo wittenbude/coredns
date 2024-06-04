@@ -2,7 +2,7 @@ module github.com/wittenbude/coredns
 
 go 1.21
 
-toolchain go1.22.3
+toolchain go1.22.4
 
 require (
 	github.com/coredns/coredns v1.11.3
