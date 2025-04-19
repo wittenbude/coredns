@@ -9,7 +9,7 @@ import (
 	"github.com/coredns/coredns/coremain"
 
 	_ "github.com/infobloxopen/kubenodes"
-	_ "github.com/ori-edge/k8s_gateway"
+	_ "github.com/k8s-gateway/k8s_gateway"
 )
 
 var insertAfter = "kubernetes"
