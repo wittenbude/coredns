@@ -582,6 +582,8 @@ github.com/k8s-gateway/k8s_gateway v1.1.0 h1:7hJRgzE6d+wC7WEO0QX+bEX9jNtQ5DimUPI
 github.com/k8s-gateway/k8s_gateway v1.1.0/go.mod h1:8yIrK536wrKJCg7UNxcouuxl32zEBzbOoHZ6gAktjIE=
 github.com/k8s-gateway/k8s_gateway v1.1.1 h1:XDjUqiGKsErQELUW1cdCdKz56LgBxdz6TSKw6FOuysU=
 github.com/k8s-gateway/k8s_gateway v1.1.1/go.mod h1:Th3N+3GGng6TpN/cQTRYSJz1aznoDdQIf8Nw+YQs7aM=
+github.com/k8s-gateway/k8s_gateway v1.2.0 h1:yZHlbaJnfHfIH8tblqLY02YXnn4ES3PzF1plHm+ebuQ=
+github.com/k8s-gateway/k8s_gateway v1.2.0/go.mod h1:Th3N+3GGng6TpN/cQTRYSJz1aznoDdQIf8Nw+YQs7aM=
 github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 h1:Z9n2FFNUXsshfwJMBgNA0RU6/i7WVaAegv3PtuIHPMs=
 github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51/go.mod h1:CzGEWj7cYgsdH8dAjBGEr58BoE7ScuLd+fwFZ44+/x8=
 github.com/kisielk/errcheck v1.1.0/go.mod h1:EZBBE59ingxPouuu3KfxchcWSUPOHkagtvWXihfKN4Q=

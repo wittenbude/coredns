@@ -7,7 +7,7 @@ toolchain go1.24.2
 require (
 	github.com/coredns/coredns v1.12.1
 	github.com/infobloxopen/kubenodes v0.0.0-20220421182356-f6d6d8476101
-	github.com/k8s-gateway/k8s_gateway v1.1.1
+	github.com/k8s-gateway/k8s_gateway v1.2.0
 )
 
 require (
