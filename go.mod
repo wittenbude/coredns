@@ -7,7 +7,7 @@ toolchain go1.24.5
 require (
 	github.com/coredns/coredns v1.12.2
 	github.com/infobloxopen/kubenodes v0.0.0-20220421182356-f6d6d8476101
-	github.com/k8s-gateway/k8s_gateway v1.5.1
+	github.com/k8s-gateway/k8s_gateway v1.5.2
 )
 
 require (
@@ -198,10 +198,10 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	istio.io/api v1.26.2 // indirect
 	istio.io/client-go v1.26.2 // indirect
-	k8s.io/api v0.33.2 // indirect
-	k8s.io/apiextensions-apiserver v0.33.2 // indirect
-	k8s.io/apimachinery v0.33.2 // indirect
-	k8s.io/client-go v0.33.2 // indirect
+	k8s.io/api v0.33.3 // indirect
+	k8s.io/apiextensions-apiserver v0.33.3 // indirect
+	k8s.io/apimachinery v0.33.3 // indirect
+	k8s.io/client-go v0.33.3 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20250318190949-c8a335a9a2ff // indirect
 	k8s.io/utils v0.0.0-20241210054802-24370beab758 // indirect
