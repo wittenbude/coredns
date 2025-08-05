@@ -6,7 +6,7 @@ toolchain go1.24.5
 
 require (
 	github.com/coredns/coredns v1.12.2
-	github.com/giantswarm/coredns-warnlist-plugin v0.2.0
+	github.com/giantswarm/coredns-warnlist-plugin v0.2.1-0.20250704102521-00f5db440739
 	github.com/infobloxopen/kubenodes v0.0.0-20220421182356-f6d6d8476101
 	github.com/k8s-gateway/k8s_gateway v1.5.2
 )
