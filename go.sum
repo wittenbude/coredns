@@ -398,6 +398,8 @@ github.com/ghodss/yaml v0.0.0-20150909031657-73d445a93680/go.mod h1:4dBDuWmgqj2H
 github.com/ghodss/yaml v1.0.0/go.mod h1:4dBDuWmgqj2HViK6kFavaiC9ZROes6MMH2rRYeMEF04=
 github.com/giantswarm/coredns-warnlist-plugin v0.2.1-0.20250704102521-00f5db440739 h1:AsLj6Qfg/o3QJHxiN3uSnF22xt3ZDORzDu8alu0X5TE=
 github.com/giantswarm/coredns-warnlist-plugin v0.2.1-0.20250704102521-00f5db440739/go.mod h1:dgNvZG+2CSknHXLtHtvOVOLcT7rHpwpqx56fFTFJ/q4=
+github.com/giantswarm/coredns-warnlist-plugin v0.2.1-0.20250819104206-bbf29e360da8 h1:h8VXzr/RkkY6gpg3C6YvG8tM4S0U3bcl2x0Ph8d5blk=
+github.com/giantswarm/coredns-warnlist-plugin v0.2.1-0.20250819104206-bbf29e360da8/go.mod h1:dgNvZG+2CSknHXLtHtvOVOLcT7rHpwpqx56fFTFJ/q4=
 github.com/globalsign/mgo v0.0.0-20180905125535-1ca0a4f7cbcb/go.mod h1:xkRDCp4j0OGD1HRkm4kmhM+pmpv3AKq5SU7GMg4oO/Q=
 github.com/globalsign/mgo v0.0.0-20181015135952-eeefdecb41b8/go.mod h1:xkRDCp4j0OGD1HRkm4kmhM+pmpv3AKq5SU7GMg4oO/Q=
 github.com/go-ini/ini v1.25.4/go.mod h1:ByCAeIL28uOIIG0E3PJtZPDL8WnHpFKFOtgjp+3Ies8=
