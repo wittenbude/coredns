@@ -7,7 +7,7 @@ toolchain go1.25.0
 require (
 	github.com/coredns/coredns v1.12.3
 	github.com/infobloxopen/kubenodes v0.0.0-20220421182356-f6d6d8476101
-	github.com/k8s-gateway/k8s_gateway v1.5.2
+	github.com/k8s-gateway/k8s_gateway v1.6.0
 	github.com/relekang/coredns-blocklist v1.13.0
 )
 
@@ -111,7 +111,7 @@ require (
 	github.com/lufia/plan9stats v0.0.0-20250317134145-8bc96cf8fc35 // indirect
 	github.com/mailru/easyjson v0.9.0 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
-	github.com/miekg/dns v1.1.67 // indirect
+	github.com/miekg/dns v1.1.68 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
@@ -189,10 +189,10 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	istio.io/api v1.26.2 // indirect
 	istio.io/client-go v1.26.2 // indirect
-	k8s.io/api v0.33.3 // indirect
-	k8s.io/apiextensions-apiserver v0.33.3 // indirect
-	k8s.io/apimachinery v0.33.3 // indirect
-	k8s.io/client-go v0.33.3 // indirect
+	k8s.io/api v0.33.4 // indirect
+	k8s.io/apiextensions-apiserver v0.33.4 // indirect
+	k8s.io/apimachinery v0.33.4 // indirect
+	k8s.io/client-go v0.33.4 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20250318190949-c8a335a9a2ff // indirect
 	k8s.io/utils v0.0.0-20241210054802-24370beab758 // indirect
