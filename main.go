@@ -10,6 +10,7 @@ import (
 
 	_ "github.com/infobloxopen/kubenodes"
 	_ "github.com/k8s-gateway/k8s_gateway"
+	_ "github.com/relekang/coredns-blocklist"
 )
 
 var insertAfter = "kubernetes"
@@ -22,6 +23,8 @@ func init() {
 		switch name {
 		case "kubernetes":
 			directives = append(directives, "kubenodes", "k8s_gateway")
+		case "acl":
+			directives = append(directives, "blocklist")
 		}
 	}
 	directives = append(directives, "kubeapi")

@@ -8,6 +8,7 @@ require (
 	github.com/coredns/coredns v1.12.3
 	github.com/infobloxopen/kubenodes v0.0.0-20220421182356-f6d6d8476101
 	github.com/k8s-gateway/k8s_gateway v1.5.2
+	github.com/relekang/coredns-blocklist v1.13.0
 )
 
 require (
