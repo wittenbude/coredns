@@ -5,7 +5,7 @@ go 1.25.1
 require (
 	github.com/coredns/coredns v1.12.4
 	github.com/infobloxopen/kubenodes v0.0.0-20220421182356-f6d6d8476101
-	github.com/k8s-gateway/k8s_gateway v1.6.0
+	github.com/k8s-gateway/k8s_gateway v1.6.1
 	github.com/relekang/coredns-blocklist v1.13.0
 )
 
