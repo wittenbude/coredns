@@ -13,8 +13,6 @@ import (
 	_ "github.com/relekang/coredns-blocklist"
 )
 
-var insertAfter = "kubernetes"
-
 func init() {
 	directives := make([]string, 0, len(dnsserver.Directives)+4)
 
