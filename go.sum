@@ -678,6 +678,8 @@ github.com/k8s-gateway/k8s_gateway v1.6.3 h1:jeD4n0y8+kftohnlSQME0ZNGoJzPnYp8kXx
 github.com/k8s-gateway/k8s_gateway v1.6.3/go.mod h1:zHDrP3NuCejqSQ9m+UwBDCIExYnGPDuHWvrNwGmMBos=
 github.com/k8s-gateway/k8s_gateway v1.6.4 h1:ks2EdcaJ4iA9ZOqaUGZ64Pdn1878qCBL/WmRkotEYA4=
 github.com/k8s-gateway/k8s_gateway v1.6.4/go.mod h1:+o7LFN+kqH9f69xGSiUFPxrpfps0qhe7/NJg9yEV+fg=
+github.com/k8s-gateway/k8s_gateway v1.7.0 h1:5gK2QyqWHIoJIDuv7177+1tOKFY+CoujXdqif4NSzNg=
+github.com/k8s-gateway/k8s_gateway v1.7.0/go.mod h1:+pmGgN+yPAJBwTLWmZYd6qk+cbfWcIlfqdFqHZrtLdA=
 github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51/go.mod h1:CzGEWj7cYgsdH8dAjBGEr58BoE7ScuLd+fwFZ44+/x8=
 github.com/kisielk/errcheck v1.1.0/go.mod h1:EZBBE59ingxPouuu3KfxchcWSUPOHkagtvWXihfKN4Q=
 github.com/kisielk/errcheck v1.2.0/go.mod h1:/BMXB+zMLi60iA8Vv6Ksmxu/1UDYcXs4uQLJ+jE2L00=
@@ -1544,6 +1546,8 @@ k8s.io/apiextensions-apiserver v0.35.0 h1:3xHk2rTOdWXXJM+RDQZJvdx0yEOgC0FgQ1PlJa
 k8s.io/apiextensions-apiserver v0.35.0/go.mod h1:E1Ahk9SADaLQ4qtzYFkwUqusXTcaV2uw3l14aqpL2LU=
 k8s.io/apiextensions-apiserver v0.35.1 h1:p5vvALkknlOcAqARwjS20kJffgzHqwyQRM8vHLwgU7w=
 k8s.io/apiextensions-apiserver v0.35.1/go.mod h1:2CN4fe1GZ3HMe4wBr25qXyJnJyZaquy4nNlNmb3R7AQ=
+k8s.io/apiextensions-apiserver v0.35.2 h1:iyStXHoJZsUXPh/nFAsjC29rjJWdSgUmG1XpApE29c0=
+k8s.io/apiextensions-apiserver v0.35.2/go.mod h1:OdyGvcO1FtMDWQ+rRh/Ei3b6X3g2+ZDHd0MSRGeS8rU=
 k8s.io/apimachinery v0.18.0/go.mod h1:9SnR/e11v5IbyPCGbvJViimtJ0SwHG4nfZFjU77ftcA=
 k8s.io/apimachinery v0.18.2/go.mod h1:9SnR/e11v5IbyPCGbvJViimtJ0SwHG4nfZFjU77ftcA=
 k8s.io/apimachinery v0.18.4/go.mod h1:OaXp26zu/5J7p0f92ASynJa1pZo06YlV9fG7BoWbCko=
