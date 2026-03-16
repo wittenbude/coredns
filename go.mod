@@ -4,7 +4,6 @@ go 1.25.4
 
 require (
 	github.com/coredns/coredns v1.14.2
-	github.com/infobloxopen/kubenodes v0.0.0-20220421182356-f6d6d8476101
 	github.com/k8s-gateway/k8s_gateway v1.7.0
 	github.com/relekang/coredns-blocklist v1.13.3
 )
@@ -68,7 +67,6 @@ require (
 	github.com/cihub/seelog v0.0.0-20170130134532-f561c5e57575 // indirect
 	github.com/cloudfoundry-community/go-cfclient v0.0.0-20220930021109-9c4e6c59ccf1 // indirect
 	github.com/coredns/caddy v1.1.4 // indirect
-	github.com/coredns/kubeapi v0.0.0-20220204142012-e4e9337f0a0d // indirect
 	github.com/coreos/go-semver v0.3.1 // indirect
 	github.com/coreos/go-systemd/v22 v22.6.0 // indirect
 	github.com/datawire/ambassador v1.12.4 // indirect
@@ -166,7 +164,6 @@ require (
 	github.com/spf13/pflag v1.0.10 // indirect
 	github.com/stretchr/objx v0.5.3 // indirect
 	github.com/stretchr/testify v1.11.1 // indirect
-	github.com/theckman/httpforwarded v0.4.0 // indirect
 	github.com/tinylib/msgp v1.6.1 // indirect
 	github.com/tklauser/go-sysconf v0.3.16 // indirect
 	github.com/tklauser/numcpus v0.11.0 // indirect
