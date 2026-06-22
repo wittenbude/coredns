@@ -4,7 +4,7 @@ go 1.26.1
 
 require (
 	github.com/coredns/coredns v1.14.4
-	github.com/k8s-gateway/k8s_gateway v1.8.0
+	github.com/k8s-gateway/k8s_gateway v1.8.1
 	github.com/relekang/coredns-blocklist v1.13.3
 )
 
@@ -115,7 +115,7 @@ require (
 	github.com/googleapis/enterprise-certificate-proxy v0.3.15 // indirect
 	github.com/googleapis/gax-go/v2 v2.22.0 // indirect
 	github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674 // indirect
-	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.4 // indirect
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.7 // indirect
 	github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645 // indirect
 	github.com/hashicorp/cronexpr v1.1.3 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
@@ -218,7 +218,7 @@ require (
 	google.golang.org/genproto/googleapis/api v0.0.0-20260319201613-d00831a3d3e7 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260511170946-3700d4141b60 // indirect
 	google.golang.org/grpc v1.81.1 // indirect
-	google.golang.org/protobuf v1.36.11 // indirect
+	google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.13.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.67.1 // indirect
@@ -226,13 +226,13 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	istio.io/api v1.29.1 // indirect
 	istio.io/client-go v1.29.1 // indirect
-	k8s.io/api v0.35.4 // indirect
-	k8s.io/apiextensions-apiserver v0.35.4 // indirect
-	k8s.io/apimachinery v0.35.4 // indirect
-	k8s.io/client-go v0.35.4 // indirect
+	k8s.io/api v0.36.1 // indirect
+	k8s.io/apiextensions-apiserver v0.36.1 // indirect
+	k8s.io/apimachinery v0.36.1 // indirect
+	k8s.io/client-go v0.36.1 // indirect
 	k8s.io/klog/v2 v2.140.0 // indirect
-	k8s.io/kube-openapi v0.0.0-20251125145642-4e65d59e963e // indirect
-	k8s.io/utils v0.0.0-20260108192941-914a6e750570 // indirect
+	k8s.io/kube-openapi v0.0.0-20260317180543-43fb72c5454a // indirect
+	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2 // indirect
 	sigs.k8s.io/controller-runtime v0.23.3 // indirect
 	sigs.k8s.io/external-dns v0.21.0 // indirect
 	sigs.k8s.io/gateway-api v1.5.1 // indirect
