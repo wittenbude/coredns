@@ -4,7 +4,7 @@ go 1.26.6
 
 require (
 	github.com/coredns/coredns v1.14.7
-	github.com/k8s-gateway/k8s_gateway v1.9.0
+	github.com/k8s-gateway/k8s_gateway v1.9.1
 	github.com/relekang/coredns-blocklist v1.13.3
 )
 
