@@ -993,6 +993,8 @@ github.com/k8s-gateway/k8s_gateway v1.9.0 h1:gdZ2fQRESYMIz6D+pvXlr1sBcfLsIC1ivL4
 github.com/k8s-gateway/k8s_gateway v1.9.0/go.mod h1:J+UnViLD7NFyQut6441E9OWJLTF/v1NnF0OWe2C2Urg=
 github.com/k8s-gateway/k8s_gateway v1.9.1 h1:4JGRicGjiphRo17r9Pk+wWJBaYa3ZGaPdmwOg1AlGPc=
 github.com/k8s-gateway/k8s_gateway v1.9.1/go.mod h1:J+UnViLD7NFyQut6441E9OWJLTF/v1NnF0OWe2C2Urg=
+github.com/k8s-gateway/k8s_gateway v1.9.2 h1:7s8WqH/U2msongd44AwfaEYE/mFmCCNbgW6JtMQBbQc=
+github.com/k8s-gateway/k8s_gateway v1.9.2/go.mod h1:aMB2WBqJi04fVjG5OOL/MYxSyl01m6PMC8k1K5kQCUw=
 github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51/go.mod h1:CzGEWj7cYgsdH8dAjBGEr58BoE7ScuLd+fwFZ44+/x8=
 github.com/kisielk/errcheck v1.1.0/go.mod h1:EZBBE59ingxPouuu3KfxchcWSUPOHkagtvWXihfKN4Q=
 github.com/kisielk/errcheck v1.2.0/go.mod h1:/BMXB+zMLi60iA8Vv6Ksmxu/1UDYcXs4uQLJ+jE2L00=
@@ -2231,6 +2233,8 @@ sigs.k8s.io/gateway-api v1.6.1 h1:mock6phZbI6rvZerwrVNk7hVNymQgHo+6sJ81Ia7ftY=
 sigs.k8s.io/gateway-api v1.6.1/go.mod h1:FVfx3t389ybeXOqvDghLbdvJdSCfI/PReqCUI3lu3mY=
 sigs.k8s.io/gateway-api v1.6.2 h1:vh5YzKlbdBivEaLX61+APKLGRq4tZ7Fj4XfGkv08xB4=
 sigs.k8s.io/gateway-api v1.6.2/go.mod h1:FVfx3t389ybeXOqvDghLbdvJdSCfI/PReqCUI3lu3mY=
+sigs.k8s.io/gateway-api v1.6.3 h1:lKpJa5bGlraC/QeACvCpsHLdmO6y0iKfzVl6gzaFEYc=
+sigs.k8s.io/gateway-api v1.6.3/go.mod h1:FVfx3t389ybeXOqvDghLbdvJdSCfI/PReqCUI3lu3mY=
 sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730 h1:IpInykpT6ceI+QxKBbEflcR5EXP7sU1kvOlxwZh5txg=
 sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730/go.mod h1:mdzfpAEoE6DHQEN0uh9ZbOCuHbLK5wOm7dK4ctXE9Tg=
 sigs.k8s.io/kustomize v2.0.3+incompatible/go.mod h1:MkjgH3RdOWrievjo6c9T245dYlB5QeXV4WCbnt/PEpU=
